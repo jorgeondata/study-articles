@@ -78,4 +78,4 @@ Não há um framework ou método específico de instruir uma IA generativa e ter
 [^2]: Ao usar IAs generativas, alguns problemas são inerente a seu uso, como alucinação, que é quando uma IA generativa fornece saídas que são inconsistentes, incorretas ou sem sentido.
 [^3]: Viéses de conteúdo são uma característica intrínseca dessas IAs, pois elas são treinadas com dados criados por humanos, que, por sua vez, contêm viéses de gênero, raça e outras formas de parcialidade.
 [^4]: A API do Google, Gemini 2.0 Flash, funciona semelhante ao GPT-4o com suporte para o português. Contudo, tanto na documentação quanto no curso de engenharia de prompt, para melhores resultados, escreva as instruções em inglês. 
-[^5]: Em outro card, estarei explicando como otimizar modelos (Fine Tunning) para tarefas muito específicas.
+[^5]: Em [outro card](https://github.com/jorgeondata/study-articles/blob/main/TI/tune-model.md), estarei explicando como otimizar modelos (Fine Tunning) para tarefas muito específicas.
