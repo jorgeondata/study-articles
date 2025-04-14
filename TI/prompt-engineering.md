@@ -1,15 +1,15 @@
-## Sugestões de um bom aproveitamento de IAs Generativas
+## Sugestões de um bom aproveitamento de IAs Generativas[^1]
 ### Prompt do Sistema
 - Um prompt de sistema é um guia de instruções configurado para as iterações de uma IA específica, podendo definir sua personalidade e limitações. Em outras palavras, são instruções que você passa para a IA com a finalidade de resolver uma determinada tarefa, sendo ela dotada de contexto e recursos para melhorar o resultado.
 
 ### Framework de uso e mentalidade 
 Ao usar IAs generativas, alguns problemas são inerentes ao seu uso, como alucinação e viéses de conteúdo, recomenda-se fazer as seguintes recomendações:
-  - a) O resultado foi adequado? Tenha certeza que a IA entende a tarefa e não reforça viéses prejudiciais;
-  - b) Peça por autorização. Pergunte a sua empresa se poderá usar IA em projetos em andamento ou futuros;
-  - c) Proteja a privacidade. Use ferramentas seguras e evite expor dados sensíveis (Ex: Não copie e cole um relatório da empresa na IA só por estar com "preguiça" de ler)
-  - d) Valide as saídas. Revise todo conteúdo gerado antes de compartilhar;
-  - e) Seja transparente. Divulgue o uso de IA para os times e/ou clientes.
-Existem vários cursos de engenharia de prompt ou como usar uma api de IA generativa específica, mas atualmente(2025.1quad) todos tem em comum a _tarefa_ e o _contexto_. O [curso de engenharia de prompt da Google](https://www.coursera.org/google-learn/prompting-essentials) recomenda o seguinte ciclo[^1] de 5 etapas de prompt para diminuir as alucinações[^2],  viéses de conteúdo [^3] e otimizar resultados:
+  - O resultado foi adequado? Tenha certeza que a IA entende a tarefa e não reforça viéses prejudiciais;
+  - Peça por autorização. Pergunte a sua empresa se poderá usar IA em projetos em andamento ou futuros;
+  - Proteja a privacidade. Use ferramentas seguras e evite expor dados sensíveis (Ex: Não copie e cole um relatório da empresa na IA só por estar com "preguiça" de ler)
+  - Valide as saídas. Revise todo conteúdo gerado antes de compartilhar;
+  - Seja transparente. Divulgue o uso de IA para os times e/ou clientes.
+Existem vários cursos de engenharia de prompt ou como usar uma api de IA generativa específica, mas atualmente(2025.1quad) todos tem em comum a _tarefa_ e o _contexto_. O [curso de engenharia de prompt da Google](https://www.coursera.org/google-learn/prompting-essentials) recomenda o seguinte ciclo[^2] de 5 etapas de prompt para diminuir as alucinações[^3],  viéses de conteúdo [^4] e otimizar resultados:
 
 #### Tarefa (Task)
 A tarefa _especifica_ o que você quer que a IA faça, por isso deve ser claro e contextualizado.
@@ -28,17 +28,17 @@ A iteração só ocorre quando há avaliação prévia, pois é aqui que otimiza
 > **Exemplo:** "Eu quero que o planejamento me possibilite flexibilidade e que eu tenha tempo para reestrtuturar minha agenda semanal."
 ---
 - Além desse framework, há um complemento do processo que envolve o papel da IA e o estilo de iteração variando em:
-#### 1. Tom (Tone)
+#### a) Tom (Tone)
 > Formal, informal, humorístico ou profissional
-#### 2. Tamanho da resposta (Response Length)
+#### b) Tamanho da resposta (Response Length)
 > Breve ou Detalhada
-#### 3. Formato de saída (Output Format)
+#### c) Formato de saída (Output Format)
 > Lista, Parágrafo, Código ou outros formatos específicos
-#### 4. Persona
+#### d) Persona
 > Identidade (qual profissão ou papel a assumir)
 > Limitações (o que pode ou não pode fazer)
 
-### Exemplo prático nas instruções do sistema e do prompt (Gemini)[^4]
+### Exemplo prático nas instruções do sistema e do prompt (Gemini)[^5]
 #### System Instructions
 <ins>_(Persona)_</ins> "Você é um assistente de chef de cozinha muito prestativo especializado em receitas de uma só panela. <ins>_(Tarefa)_</ins> Analise a foto com os ingredientes e sugira receitas baseadas neles. <ins>_(Formato de saída)_</ins> Forneça as receitas num formato de passo a passo, inclua o tempo aproximado de preparo e quantas porções podem se fazer. <ins>_(Contexto)_</ins> Sempre siga as receitas e conselhos de preparo. Se for pedido algo não relacionado a culinária ou nutrição, educadamente redirecione a conversação de volta a ideias de receitas."
 #### Prompt Instructions
@@ -71,11 +71,14 @@ A iteração só ocorre quando há avaliação prévia, pois é aqui que otimiza
 #### Método 4
 > Introduza limitações, principalmente quando a saída tem informação excessivamente grande;
 ---
-Não há um framework ou método específico de instruir uma IA generativa e ter todos os resultados que você espera. Por isso, para todo tipo de tecnologia emergente ou nova ferramenta que otimize ou facilite nosso trabalho, pode nos custar menos energia cognitiva, mas ainda sim temos que refletir e pensar sobre os resultados que obtemos[^5]. No fundo, não podemos esquecer que a reflexão é o motor que nos leva à evolução. As ferramentas, por mais incríveis que sejam, são apenas instrumentos que potencializam o que já existe dentro de nós. A verdadeira inovação acontece quando somos capazes de olhar para o que a IA gera e questionar: "Como isso serve aos nossos objetivos? E como podemos aprimorar ainda mais a realidade que estamos criando?" Só assim podemos usá-las da melhor maneira possível.
+Não há um framework ou método específico de instruir uma IA generativa e ter todos os resultados que você espera. Por isso, para todo tipo de tecnologia emergente ou nova ferramenta que otimize ou facilite nosso trabalho, pode nos custar menos energia cognitiva, mas ainda sim temos que refletir e pensar sobre os resultados que obtemos[^6]. No fundo, não podemos esquecer que a reflexão é o motor que nos leva à evolução. As ferramentas, por mais incríveis que sejam, são apenas instrumentos que potencializam o que já existe dentro de nós. A verdadeira inovação acontece quando somos capazes de olhar para o que a IA gera e questionar: 
+"Como isso serve aos nossos objetivos? E como podemos aprimorar ainda mais a realidade que estamos criando?" 
+Só assim podemos usá-las da melhor maneira possível.
 
 
-[^1]: Um mnemônico usado para se familiarizar com esse framework é **T**iny **C**rabs **R**ide **E**normous **I**guanas ou no português **T**io **C**arlos **R**egou **A**gua **I**nsípida.
-[^2]: Ao usar IAs generativas, alguns problemas são inerente a seu uso, como alucinação, que é quando uma IA generativa fornece saídas que são inconsistentes, incorretas ou sem sentido.
-[^3]: Viéses de conteúdo são uma característica intrínseca dessas IAs, pois elas são treinadas com dados criados por humanos, que, por sua vez, contêm viéses de gênero, raça e outras formas de parcialidade.
-[^4]: A API do Google, Gemini 2.0 Flash, funciona semelhante ao GPT-4o com suporte para o português. Contudo, tanto na documentação quanto no curso de engenharia de prompt, para melhores resultados, escreva as instruções em inglês. 
-[^5]: Em [outro card](https://github.com/jorgeondata/study-articles/blob/main/TI/tune-model.md), estarei explicando como otimizar modelos (Fine Tunning) para tarefas muito específicas.
+[^1]: Talvez seja necessário lembrar que **codar** é diferente de **programar**: o primeiro é _habilidade em traduzir lógica em instruções de código de commputador_, enquanto programar envolve não só escrever comandos, mas _entender o problema, criar um plano e testar a solução_.
+[^2]: Um mnemônico usado para se familiarizar com esse framework é **T**iny **C**rabs **R**ide **E**normous **I**guanas ou no português **T**io **C**arlos **R**egou **A**gua **I**nsípida.
+[^3]: Ao usar IAs generativas, alguns problemas são inerente a seu uso, como alucinação, que é quando uma IA generativa fornece saídas que são inconsistentes, incorretas ou sem sentido.
+[^4]: Viéses de conteúdo são uma característica intrínseca dessas IAs, pois elas são treinadas com dados criados por humanos, que, por sua vez, contêm viéses de gênero, raça e outras formas de parcialidade.
+[^5]: A API do Google, Gemini 2.0 Flash, funciona semelhante ao GPT-4o com suporte para o português. Contudo, tanto na documentação quanto no curso de engenharia de prompt, para melhores resultados, escreva as instruções em inglês.
+[^6]: Em [outro card](https://github.com/jorgeondata/study-articles/blob/main/TI/tune-model.md), estarei explicando como otimizar modelos (Fine Tunning) para tarefas muito específicas.
